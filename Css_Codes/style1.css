@@ -1,0 +1,25 @@
+p{
+    color: aqua;
+}
+#paragraphOne{
+    color: royalblue;
+    font-size: 22px;
+    font-weight: bolder;
+    text-align: center;
+    border: 2px solid red; /*or dotted*/
+    border-bottom: 6px dashed green;
+    border-radius: 35px; 
+}
+.syllabusModules{
+    background-color: bisque;
+    font-family: 'Courier New',Courier,monospace;
+    font-size: x-large;
+    color: yellowgreen;
+    text-decoration: overline;
+}
+
+body{
+    background-image: url("./apple.jpg");
+    background-repeat: no-repeat;
+    background-position: right top;
+}
