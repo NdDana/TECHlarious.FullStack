@@ -1,0 +1,56 @@
+*{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    margin: 0;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    background-color: rgb(155, 17, 17);
+    color: white;
+    padding-top: 40px;
+}
+.mhealth,.yhealth{
+    border: 2px solid grey;
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding: 15px;
+    text-align: center;
+}
+
+.pbar{
+    background-color: white;
+    border: 1px solid black;
+    width: 100%;
+    height: 30px;
+}
+.progress{
+    background-color: green;
+    height: 30px;
+}
+
+#attack,#sattack,#heal,#giveup {
+    background-color: rgb(58, 0, 14);
+    color: white;
+    border-radius: 10px;
+    padding: 13px;
+    margin: 8px;
+    border-width: 0px;
+    width: 140px;
+}
+.btns{
+    text-align: center;
+    margin-inline: auto;
+    table-layout: fixed;
+    width: fit-content;
+}
+.battleLog{
+    text-align: center;
+    font-size: 25px;
+    margin: 50px;
+    border: 2px solid grey;
+    padding: 20px;
+}

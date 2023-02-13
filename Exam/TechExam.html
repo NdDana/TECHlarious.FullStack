@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head lang="en">
+        <meta charset="UTF-8"> 
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <title> Kill The Monster </title>
+        <link rel="stylesheet" href="./styleExam.css">
+        
+    </head>
+    <body>
+        <div class="header">
+            <h1 align="center" style="color:white"> Kill The Monster </h1>
+        </div>
+        <div class="mhealth">
+            <h2 align="center">Monster Health</h2>
+            <div class="pbar">
+                <div class="progress" id="monsterhealth" style="width: 100%;"></div>
+            </div>
+        </div>
+        <div class="yhealth">
+            <h2 align="center">Monster Health</h2>
+            <div class="pbar">
+                <div class="progress" id="yourhealth" style="width: 100%;"></div>
+            </div>
+        </div>
+         <div class="btns">
+            <table id="btn">
+                <tr>
+                    <td>
+                        <input id="attack" type="button" value="ATTACK" onclick="attack()">
+                    </td>
+                    <td>
+                        <input id="sattack" type="button" value="SPECIAL ATTACK" onclick="specialAttack()">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input id="heal" type="button" value="HEAL" onclick="heal()">
+                    </td>
+                    <td>
+                        <input id="giveup" type="button" value="GIVE UP" onclick="giveUp()">
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="battleLog">
+            <h2 align="center">Battle Log</h2>
+        </div>
+        <script src="./scriptExam.js"></script>
+    </body>
+</html>
