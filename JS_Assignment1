@@ -1,0 +1,26 @@
+//ReplaceAll() is a function used to replace all the substrings which match a given string (pattern) with the provided desired string (replacement).
+//Example: 
+
+
+let initialString = "Coding" // declaring initial string 
+let pattern = /Coding/ // declaring pattern to replace without global scope
+let replacement = "Programming" // declaring replacement 
+let finalString = initialString.replaceAll(pattern,replacement) // replacing pattern with replacment 
+
+
+//THUS, THE ALGORITHM IS: 
+function replaceAll(initialString,pattern,replacement){
+    return initialString.split(pattern).join(replacement);
+}
+
+
+//Concat() joins strings together 
+//Example:
+let original= "Techalrious"
+let val = str.concat(" ","bootcamp");
+console.log(val);
+
+//THUS THE ALGORITHM IS:
+function concat(original,value) {
+    return original.join(value);
+}
